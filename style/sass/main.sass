@@ -1,0 +1,193 @@
+$background-color-one: #D8D8D8
+$background-color-two: #929292
+html
+  height: 100%
+  width: 100%
+  body
+    height: calc(100% - 51px)
+    width: 100%
+    a
+      cursor: pointer
+      text-decoration: none
+    .clear:after
+      content: ""
+      display: table
+      clear: both
+    .container
+      width: 85%
+      height: 100%
+      margin: 0 auto
+    section
+      width: 100%
+      height: auto
+      padding: 130px 0
+      box-sizing: border-box
+      background: $background-color-one
+    h1
+      font-family: 'Istok Web', sans-serif
+      font-size: 31px
+      margin-bottom: 30px
+      line-height: 42px
+      font-weight: 700
+    h2
+      font-family: 'Istok Web', sans-serif
+      font-size: 24px
+      line-height: 33px
+    p
+      font-family: 'Gentium Basic', serif
+      font-size: 18px
+      line-height: 28px
+      letter-spacing: 0.5px
+    .btn
+      background-color: white
+      border: none
+      color: black
+      width: auto
+      padding: 10px 24px
+      text-align: center
+      display: inline-block
+      font-size: 12px
+      font-family: 'Istok Web', sans-serif
+      font-weight: 700
+      border-radius: 3px
+      line-height: 18px
+      letter-spacing: 0.5px
+    .text-link
+      color: black
+      font-size: 16px
+      font-family: 'Istok Web', sans-serif
+      font-weight: 700
+      line-height: 18px
+      letter-spacing: 0.5px
+      display: inline-block
+      margin-top: 20px
+    .l-content
+      width: 45%
+      height: 100%
+      float: left
+    .r-content
+      width: 45%
+      height: 100%
+      float: right
+    nav
+      height: 50px
+      width: 100%
+      background: black
+      position: fixed
+      top: 0
+      .logo
+        height: 34px
+        width: 21px
+        //background: white
+        float: left
+        margin-top: 8px
+        background-image: url(../../assets/img/logo.svg)
+        background-position: center
+        background-size: contain
+      ul
+        float: right
+        display: inline-block
+        list-style-type: none
+        li
+          color: white
+          float: left
+          line-height: 50px
+          margin-right: 20px
+          font-family: 'Istok Web', sans-serif
+          font-size: 14px
+        .btn
+          margin-top: 6px
+    .hero
+      min-height: 600px
+      background: $background-color-one
+      margin-top: 50px
+      .container
+        .l-content
+          p
+            margin-bottom: 28px
+    .about
+      background: $background-color-two
+      .r-content
+        .article-display
+          cursor: pointer
+          height: auto
+          width: 100%
+          display: block
+          //background: red
+          margin: 10px 0
+          .article-img
+            height: 65px
+            width: 65px
+            background: white
+            float: left
+          .article-content
+            height: auto
+            width: calc(100% - 65px)
+            float: left
+            padding-left: 10px
+            box-sizing: border-box
+            .date
+              font-size: 14px
+              font-family: 'Gentium Basic', serif
+              line-height: 14px
+    .work
+      .container
+        .left
+          float: left
+        .right
+          float: right
+        .work-content
+          padding: 20px
+          box-sizing: border-box
+          height: auto
+          max-width: 400px
+          background: white
+          border-radius: 3px
+          .date
+            font-size: 14px
+            font-family: 'Gentium Basic', serif
+            margin-bottom: 0px
+            line-height: 14px
+          h2
+            margin-bottom: 20px
+          p
+            margin-bottom: 60px
+    footer
+      width: 100%
+      height: auto
+      padding: 130px 0
+      box-sizing: border-box
+      background: black
+      text-align: center
+      color: white
+      .container
+        a
+          font-family: 'Istok Web', sans-serif
+          font-size: 24px
+          line-height: 33px
+          color: white
+        h2
+          margin-top: 5px
+        ul
+          list-style: none
+          padding: 0
+          margin-top: 50px
+          width: 100%
+          h2
+            margin-bottom: 10px
+          li
+            display: inline-block
+            overflow: hidden
+            width: 65px
+            height: 65px
+            text-align: center
+            background: #fff
+            position: relative
+            margin-right: 10px
+            margin-bottom: 10px
+            &:nth-child(8n)
+              margin-right: 0
+            a
+              height: 100%
+              width: 100%
+              display: block
