@@ -10,12 +10,12 @@
 <body>
   <nav>
     <div class="container">
-      <a href="#" class="logo"></a>
+      <a href="index.html" class="logo"></a>
       <ul>
-        <li>WORK</li>
-        <li>ABOUT ME</li>
-        <li>RESUME</li>
-        <a href="#" class="btn">Get in touch!</a>
+        <li><a href="#archive">WORK</a></li>
+        <li><a href="aboutme.html">ABOUT ME</a></li>
+        <li><a href="#">RESUME</a></li>
+        <a href="#footer" class="btn">Get in touch!</a>
       </ul>
     </div>
   </nav>
@@ -24,9 +24,14 @@
       <div class="l-content">
         <h1>Hey, I’m Mat.</h1>
         <p>I’m a UX Designer who enjoys designing thoughtful and easy to use digital experiences.  I leverage my understanding of design & code to better understand the users needs.  Striving to find elegant solutions to complex problems.</p>
-        <a href="#" class="btn">I’m available for a full time role.  Let’s talk!</a>
+        <a href="mailto:mrm1779@gmail.com" class="btn">I’m available for a full time role.  Let’s talk!</a>
       </div>
     </div>
+    <video class="movie" preload autoplay loop>
+      <!--<source src="HTML5Sample_H264.mov" />
+      <source src="HTML5Sample_Ogg.ogv" />-->
+      <source src="assets/video/LACity.webm" />
+    </video>
   </section>
   <section class="about">
     <div class="clear container">
@@ -34,20 +39,20 @@
         <h1>Who am I?</h1>
         <p>I’m Mathew Morse, Syracuse, NY based UX Designer & currently looking for an amazing company to join that promotes learning & growth.<br><br>
         When I’m not searching for the next company to work with I’m working on my numerous side projects such as a website to display the story of my recent trip abroad & a web app that helps authors create engaging & responsive web based books.</p>
-      <a href="#" class="text-link">More about me ></a>
+      <a href="aboutme.html" class="text-link">More about me ></a>
       </div>
       <div class="r-content">
         <h1>A bit of writing.</h1>
         <p>I’ve recently started writing articles about life, design, and traveling on Medium.</p>
-        <a class="clear article-display">
-          <div class="article-img"></div>
+        <a href="https://medium.theuxblog.com/so-im-lost-12b71a497bc6" target="_blank" class="clear article-display">
+          <div class="article-img" id="lost"></div>
           <div class="article-content">
             <p class="date">Jan 5th 2016</p>
             <h2>So, I’m lost</h2>
           </div>
         </a>
-        <a class="clear article-display">
-          <div class="article-img"></div>
+        <a href="https://medium.com/@mat148/agoda-user-experience-design-review-5817ac344dfa" target="_blank" class="clear article-display">
+          <div class="article-img" id="agoda"></div>
           <div class="article-content">
             <p class="date">Jan 17th 2016</p>
             <h2>Agoda User Experience Design Review</h2>
@@ -57,7 +62,7 @@
       </div>
     </div>
   </section>
-  <section class="work">
+  <section id="archive" class="work">
     <div class="clear container">
       <div class="work-content left">
         <p class="date">May 2016 - Present</p>
@@ -67,7 +72,7 @@
       </div>
     </div>
   </section>
-  <section class="work">
+  <section id="elementarium" class="work">
     <div class="clear container">
       <div class="work-content right">
         <p class="date">Jan 2014 - Feb 2014 ( 3 months )</p>
@@ -77,7 +82,7 @@
       </div>
     </div>
   </section>
-  <section class="work">
+  <section id="air" class="work">
     <div class="clear container">
       <div class="work-content left">
         <p class="date">Sept 2014 - Oct 2014 ( 2 months )</p>
@@ -87,7 +92,7 @@
       </div>
     </div>
   </section>
-  <section class="work">
+  <section id="ghg" class="work">
     <div class="clear container">
       <div class="work-content right">
         <p class="date">Dec 2013 - Feb 2013 ( 3 months )</p>
@@ -97,22 +102,28 @@
       </div>
     </div>
   </section>
-  <footer>
-    <div class="container">
-      <h1>Feel free to reach out to me.</h1>
-      <a href="#">mrm1779@gmail.com</a>
-      <h2>+1 315 382 8467</h2>
-      <ul>
-        <h2>Or connect with me.</h2>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
+  <footer id="footer">
+    <div class="container clear">
+      <div class="l-content">
+        <h1>I'd love to hear from you.</h1>
+        <a href="mailto:mrm1779@gmail.com" class="btn">mrm1779@gmail.com</a>
+        <span>or</span>
+        <h2>+1 (315)-382-8467</h2>
+        <ul>
+          <h1>Or connect with me.</h1>
+          <li><a target="_blank" href="https://medium.com/@mat148"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/mathewmorse/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/mat.morse/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.pinterest.com/MathewMorse/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.behance.net/mrm1779af59"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://github.com/mat148"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://codepen.io/mat148/"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
     </div>
   </footer>
 </body>
+  <script src="js/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/379d0e1e55.js"></script>
+  <script src="js/main.js" type="text/javascript"></script>
 </html>

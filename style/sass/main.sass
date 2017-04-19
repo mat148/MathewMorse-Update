@@ -1,8 +1,14 @@
-$background-color-one: #D8D8D8
-$background-color-two: #929292
+$main-color: #2b333e
+$action: #279AF1
+$dark-action: #1777bf
+$white: #f1f0ee
+$black: #040404
+$med-grey: #3F3F3F
+$light-grey: #9d9d9d
 html
   height: 100%
   width: 100%
+  background: $white
   body
     height: calc(100% - 51px)
     width: 100%
@@ -22,38 +28,39 @@ html
       height: auto
       padding: 130px 0
       box-sizing: border-box
-      background: $background-color-one
     h1
       font-family: 'Istok Web', sans-serif
       font-size: 31px
       margin-bottom: 30px
       line-height: 42px
       font-weight: 700
+      color: $black
     h2
       font-family: 'Istok Web', sans-serif
       font-size: 24px
       line-height: 33px
+      color: $black
     p
       font-family: 'Gentium Basic', serif
       font-size: 18px
       line-height: 28px
-      letter-spacing: 0.5px
+      letter-spacing: 1px
+      color: $med-grey
     .btn
-      background-color: white
       border: none
-      color: black
+      color: $white
       width: auto
       padding: 10px 24px
       text-align: center
       display: inline-block
-      font-size: 12px
+      font-size: 14px
       font-family: 'Istok Web', sans-serif
-      font-weight: 700
-      border-radius: 3px
+      border-radius: 1px
       line-height: 18px
       letter-spacing: 0.5px
+      border: 1px solid $white
     .text-link
-      color: black
+      color: $black
       font-size: 16px
       font-family: 'Istok Web', sans-serif
       font-weight: 700
@@ -61,6 +68,9 @@ html
       letter-spacing: 0.5px
       display: inline-block
       margin-top: 20px
+      transition: color 0.5s ease
+      &:hover
+        color: $action
     .l-content
       width: 45%
       height: 100%
@@ -70,17 +80,19 @@ html
       height: 100%
       float: right
     nav
-      height: 50px
+      height: 60px
       width: 100%
-      background: black
+      //background: $main-color
       position: fixed
       top: 0
+      z-index: 2
+      background-color: transparent
+      transition: background-color 0.5s ease
       .logo
         height: 34px
         width: 21px
-        //background: white
         float: left
-        margin-top: 8px
+        margin-top: 13px
         background-image: url(../../assets/img/logo.svg)
         background-position: center
         background-size: contain
@@ -89,36 +101,75 @@ html
         display: inline-block
         list-style-type: none
         li
-          color: white
+          color: $white
           float: left
-          line-height: 50px
+          line-height: 60px
           margin-right: 20px
           font-family: 'Istok Web', sans-serif
           font-size: 14px
+          a
+            color: $white
+            transition: color 0.5s ease
+            &:hover
+              color: $action
         .btn
-          margin-top: 6px
+          margin-top: 9px
+          transition: all 0.5s ease
+          &:hover
+            background-color: $action
+            border: $action 1px solid
     .hero
       min-height: 600px
-      background: $background-color-one
-      margin-top: 50px
+      position: relative
+      overflow: hidden
+      .movie
+        min-width: 100%
+        min-height: 100%
+        width: auto
+        height: auto
+        overflow: hidden
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+        z-index: 0
       .container
         .l-content
+          position: absolute
+          z-index: 1
+          h1
+            color: $white
           p
+            color: $white
             margin-bottom: 28px
+        .btn
+          padding: 18px 28px
+          background-color: $action
+          border: none
+          transition: background-color 0.5s ease
+          &:hover
+            background-color: $dark-action
     .about
-      background: $background-color-two
       .r-content
         .article-display
           cursor: pointer
           height: auto
           width: 100%
           display: block
-          //background: red
           margin: 10px 0
+          color: $black
+          #lost
+            background-image: url(../../assets/img/lost-article.png)
+            background-size: cover
+            background-position: center
+          #agoda
+            background-image: url(../../assets/img/agoda-article.png)
+            background-size: cover
+            background-position: center
           .article-img
             height: 65px
             width: 65px
-            background: white
+            background: $white
             float: left
           .article-content
             height: auto
@@ -130,6 +181,23 @@ html
               font-size: 14px
               font-family: 'Gentium Basic', serif
               line-height: 14px
+              color: $light-grey
+    #archive
+      background-image: url(../../assets/img/photo3.jpeg)
+      background-size: cover
+      background-position: center
+    #elementarium
+      background-image: url(../../assets/img/photo2.jpeg)
+      background-size: cover
+      background-position: center
+    #air
+      background-image: url(../../assets/img/photo1.jpeg)
+      background-size: cover
+      background-position: center
+    #ghg
+      background-image: url(../../assets/img/photo4.jpg)
+      background-size: cover
+      background-position: center
     .work
       .container
         .left
@@ -141,13 +209,14 @@ html
           box-sizing: border-box
           height: auto
           max-width: 400px
-          background: white
-          border-radius: 3px
+          background: $white
+          border-radius: 1px
           .date
             font-size: 14px
             font-family: 'Gentium Basic', serif
             margin-bottom: 0px
             line-height: 14px
+            color: $light-grey
           h2
             margin-bottom: 20px
           p
@@ -155,17 +224,75 @@ html
     footer
       width: 100%
       height: auto
+      background: $main-color
       padding: 130px 0
       box-sizing: border-box
-      background: black
+      color: $white
+      .container
+        .l-content
+          h1
+            color: $white
+          .btn
+            padding: 18px 28px
+            background-color: $action
+            border: none
+            transition: background-color 0.5s ease
+            float: left
+            &:hover
+              background-color: $dark-action
+          span
+            float: left
+            line-height: 54px
+            margin: 0 30px
+            font-size: 14px
+            font-family: 'Gentium Basic', serif
+          h2
+            float: left
+            height: 54px
+            line-height: 54px
+            color: $white
+            margin-bottom: 28px
+          ul
+            margin-top: 100px
+            float: left
+            list-style: none
+            padding: 0
+            margin-top: 50px
+            width: 100%
+            li
+              display: inline-block
+              overflow: hidden
+              width: auto
+              height: 30px
+              margin-right: 30px
+              margin-bottom: 30px
+              &:nth-child(8n)
+                margin-right: 0
+              a
+                height: 100%
+                width: 100%
+                display: block
+                i
+                  height: 100%
+                  width: 100%
+                  font-size: 30px
+                  color: $white
+                  &:hover
+                    color: $action
+    /*footer
+      width: 100%
+      height: auto
+      padding: 130px 0
+      box-sizing: border-box
+      background: $main-color
       text-align: center
-      color: white
+      color: $white
       .container
         a
           font-family: 'Istok Web', sans-serif
           font-size: 24px
           line-height: 33px
-          color: white
+          color: $white
         h2
           margin-top: 5px
         ul
@@ -178,16 +305,19 @@ html
           li
             display: inline-block
             overflow: hidden
-            width: 65px
-            height: 65px
+            width: auto
+            height: 30px
             text-align: center
-            background: #fff
             position: relative
-            margin-right: 10px
-            margin-bottom: 10px
+            margin-right: 20px
+            margin-bottom: 20px
             &:nth-child(8n)
               margin-right: 0
             a
               height: 100%
               width: 100%
               display: block
+              i
+                height: 100%
+                width: 100%
+                font-size: 30px*/
