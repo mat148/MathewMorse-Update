@@ -13,6 +13,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/air\/air-phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 661929,
+		"inputAbbreviatedPath": "\/assets\/img\/air\/air-phone.png",
+		"outputAbbreviatedPath": "\/assets\/img\/air\/air-phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/archive\/Archive-Camera.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 660204,
+		"inputAbbreviatedPath": "\/assets\/img\/archive\/Archive-Camera.png",
+		"outputAbbreviatedPath": "\/assets\/img\/archive\/Archive-Camera.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/archive\/archive-phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 876038,
+		"inputAbbreviatedPath": "\/assets\/img\/archive\/archive-phone.png",
+		"outputAbbreviatedPath": "\/assets\/img\/archive\/archive-phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/elementarium\/elementarium-phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255431,
+		"inputAbbreviatedPath": "\/assets\/img\/elementarium\/elementarium-phone.png",
+		"outputAbbreviatedPath": "\/assets\/img\/elementarium\/elementarium-phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/lost-article.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -1,10 +1,10 @@
 $main-color: #2b333e
 $action: #279AF1
 $dark-action: #1777bf
-$white: #f1f0ee
-$black: #040404
-$med-grey: #3F3F3F
-$light-grey: #9d9d9d
+$white: #fff
+$black: #525252
+$med-grey: #5f5f5f
+$light-grey: #ccc
 html
   height: 100%
   width: 100%
@@ -41,10 +41,10 @@ html
       line-height: 33px
       color: $black
     p
-      font-family: 'Gentium Basic', serif
+      font-family: 'Istok Web', sans-serif
+      font-weight: 400
       font-size: 18px
       line-height: 28px
-      letter-spacing: 1px
       color: $med-grey
     .btn
       border: none
@@ -82,7 +82,6 @@ html
     nav
       height: 60px
       width: 100%
-      //background: $main-color
       position: fixed
       top: 0
       z-index: 2
@@ -179,41 +178,81 @@ html
             box-sizing: border-box
             .date
               font-size: 14px
-              font-family: 'Gentium Basic', serif
+              font-family: 'Istok Web', sans-serif
               line-height: 14px
               color: $light-grey
     #archive
       background-image: url(../../assets/img/photo3.jpeg)
       background-size: cover
       background-position: center
+      .container
+        .work-screens-container
+          .img
+            background-image: url(../../assets/img/archive/archive-phone.png)
     #elementarium
       background-image: url(../../assets/img/photo2.jpeg)
       background-size: cover
       background-position: center
+      .container
+        .work-screens-container
+          .img
+            background-image: url(../../assets/img/elementarium/elementarium-phone.png)
     #air
       background-image: url(../../assets/img/photo1.jpeg)
       background-size: cover
       background-position: center
+      .container
+        .work-screens-container
+          .img
+            background-image: url(../../assets/img/air/air-phone.png)
     #ghg
       background-image: url(../../assets/img/photo4.jpg)
       background-size: cover
       background-position: center
+      .container
+        .work-screens-container
+          .img
+            background-image: url(../../assets/img/ghg/ghg-computer.png)
     .work
+      position: relative
+      overflow: hidden
+      .screen-left
+        left: 30%
+      .screen-right
+        left: 70%
+      .work-screens-container
+        position: absolute
+        top: 0
+        transform: translateX(-50%)
+        height: 100%
+        width: 100%
+        //background: red
+        z-index: 0
+        padding: 30px
+        box-sizing: border-box
+        .img
+          height: 100%
+          width: 100%
+          background-size: contain
+          background-position: center
+          background-repeat: no-repeat
       .container
         .left
           float: left
         .right
           float: right
         .work-content
+          z-index: 1
           padding: 20px
           box-sizing: border-box
           height: auto
           max-width: 400px
           background: $white
           border-radius: 1px
+          position: relative
           .date
             font-size: 14px
-            font-family: 'Gentium Basic', serif
+            font-family: 'Istok Web', sans-serif
             margin-bottom: 0px
             line-height: 14px
             color: $light-grey
@@ -245,7 +284,7 @@ html
             line-height: 54px
             margin: 0 30px
             font-size: 14px
-            font-family: 'Gentium Basic', serif
+            font-family: 'Istok Web', sans-serif
           h2
             float: left
             height: 54px
@@ -279,45 +318,3 @@ html
                   color: $white
                   &:hover
                     color: $action
-    /*footer
-      width: 100%
-      height: auto
-      padding: 130px 0
-      box-sizing: border-box
-      background: $main-color
-      text-align: center
-      color: $white
-      .container
-        a
-          font-family: 'Istok Web', sans-serif
-          font-size: 24px
-          line-height: 33px
-          color: $white
-        h2
-          margin-top: 5px
-        ul
-          list-style: none
-          padding: 0
-          margin-top: 50px
-          width: 100%
-          h2
-            margin-bottom: 10px
-          li
-            display: inline-block
-            overflow: hidden
-            width: auto
-            height: 30px
-            text-align: center
-            position: relative
-            margin-right: 20px
-            margin-bottom: 20px
-            &:nth-child(8n)
-              margin-right: 0
-            a
-              height: 100%
-              width: 100%
-              display: block
-              i
-                height: 100%
-                width: 100%
-                font-size: 30px*/
