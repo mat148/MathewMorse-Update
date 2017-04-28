@@ -102,6 +102,8 @@ html
       //background: green
       float: left
       margin-top: 50px
+      p
+        float: left
       .skills-content
         width: 33.33%
         height: auto
@@ -192,7 +194,7 @@ html
       position: fixed
       top: 0
       z-index: 2
-      background-color: $main-color
+      //background-color: $main-color
       transition: background-color 0.5s ease
       .logo
         height: 34px
@@ -264,6 +266,20 @@ html
       position: relative
       overflow: hidden
       background: $main-color
+      .shadow
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50%
+        background: rgba(43,51,62,1)
+        background: -moz-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(43,51,62,1)), color-stop(100%, rgba(255,255,255,0)))
+        background: -webkit-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
+        background: -o-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
+        background: -ms-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
+        background: linear-gradient(to right, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b333e', endColorstr='#ffffff', GradientType=1 )
       .movie
         min-width: 100%
         min-height: 100%
@@ -366,6 +382,46 @@ html
             background-image: url(../../assets/img/air/air-phone.png)
           .element-research-img
             background-image: url(../../assets/img/elementarium/research.png)
+          .element-sketch-img
+            background-image: url(../../assets/img/elementarium/sketch.png)
+          .element-features-img
+            background-image: url(../../assets/img/elementarium/features.png)
+          .element-workflow-img-1
+            background-image: url(../../assets/img/elementarium/workflow1.png)
+          .element-workflow-img-2
+            background-image: url(../../assets/img/elementarium/workflow2.png)
+          .element-workflow-img-3
+            background-image: url(../../assets/img/elementarium/workflow3.png)
+          .element-workflow-img-4
+            background-image: url(../../assets/img/elementarium/workflow4.png)
+          .element-workflow-img-5
+            background-image: url(../../assets/img/elementarium/workflow5.png)
+          .element-workflow-img-6
+            background-image: url(../../assets/img/elementarium/workflow6.png)
+          .element-workflow-img-7
+            background-image: url(../../assets/img/elementarium/workflow7.png)
+          .element-workflow-img-8
+            background-image: url(../../assets/img/elementarium/workflow8.png)
+          .element-interaction1-img
+            background-image: url(../../assets/img/elementarium/gesture1.png)
+          .element-interaction2-img
+            background-image: url(../../assets/img/elementarium/gesture2.png)
+          .element-interaction3-img
+            background-image: url(../../assets/img/elementarium/gesture3.png)
+          .element-interaction4-img
+            background-image: url(../../assets/img/elementarium/gesture4.png)
+          .element-interaction5-img
+            background-image: url(../../assets/img/elementarium/gesture5.png)
+          .element-interaction6-img
+            background-image: url(../../assets/img/elementarium/gesture6.png)
+          .element-interaction7-img
+            background-image: url(../../assets/img/elementarium/gesture7.png)
+          .element-interaction8-img
+            background-image: url(../../assets/img/elementarium/gesture8.png)
+          .element-interaction9-img
+            background-image: url(../../assets/img/elementarium/gesture9.png)
+          .element-interaction10-img
+            background-image: url(../../assets/img/elementarium/gesture10.png)
           .img
             height: auto
             width: 100%
@@ -527,6 +583,9 @@ html
   html
     //background: green
     body
+      .hero
+        .shadow
+          width: 100%
       .l-content
         width: 100%
       .r-content
