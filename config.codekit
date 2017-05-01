@@ -183,6 +183,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/elementarium\/assets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 564341,
+		"inputAbbreviatedPath": "\/assets\/img\/elementarium\/assets.png",
+		"outputAbbreviatedPath": "\/assets\/img\/elementarium\/assets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/elementarium\/development.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334100,
+		"inputAbbreviatedPath": "\/assets\/img\/elementarium\/development.png",
+		"outputAbbreviatedPath": "\/assets\/img\/elementarium\/development.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/elementarium\/elementarium-phone.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -315,6 +337,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/elementarium\/mockup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97022,
+		"inputAbbreviatedPath": "\/assets\/img\/elementarium\/mockup.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/elementarium\/mockup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/elementarium\/prototype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38893,
+		"inputAbbreviatedPath": "\/assets\/img\/elementarium\/prototype.png",
+		"outputAbbreviatedPath": "\/assets\/img\/elementarium\/prototype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/elementarium\/research.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -432,6 +476,39 @@
 		"initialSize": 672661,
 		"inputAbbreviatedPath": "\/assets\/img\/ghg\/ghg-computer.png",
 		"outputAbbreviatedPath": "\/assets\/img\/ghg\/ghg-computer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/ghg\/research1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50388,
+		"inputAbbreviatedPath": "\/assets\/img\/ghg\/research1.png",
+		"outputAbbreviatedPath": "\/assets\/img\/ghg\/research1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/ghg\/research2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8702,
+		"inputAbbreviatedPath": "\/assets\/img\/ghg\/research2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/ghg\/research2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/ghg\/research3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 250890,
+		"inputAbbreviatedPath": "\/assets\/img\/ghg\/research3.png",
+		"outputAbbreviatedPath": "\/assets\/img\/ghg\/research3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -595,6 +672,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/elementarium.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/ghg.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ghg.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
