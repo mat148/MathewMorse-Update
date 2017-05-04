@@ -65,6 +65,7 @@ html
       font-size: 18px
       line-height: 28px
       color: $med-grey
+      margin-bottom: 10px
     .date
       font-size: 14px
       font-family: 'Istok Web', sans-serif
@@ -105,7 +106,7 @@ html
       margin-top: 50px
       .img-description
         float: left
-        margin-bottom: 50px
+        margin-bottom: 100px
       .skills-content
         width: 33.33%
         height: auto
@@ -119,6 +120,7 @@ html
             line-height: 28px
             font-family: 'Istok Web', sans-serif
             font-size: 18px
+            line-height: 28px
       .interest-content
         width: 25%
         height: auto
@@ -155,10 +157,24 @@ html
       float: left
       display: block
       margin-bottom: 50px
+      ul
+        list-style-type: disc
+        font-family: 'Istok Web', sans-serif
+        li
+          margin-left: 16px
+          font-size: 18px
+          line-height: 28px
     .r-content
       width: 45%
       height: 100%
       float: right
+      ul
+        list-style-type: disc
+        font-family: 'Istok Web', sans-serif
+        li
+          margin-left: 16px
+          font-size: 18px
+          line-height: 28px
     .c-content
       width: 60%
       height: 100%
@@ -195,7 +211,7 @@ html
       width: 100%
       position: fixed
       top: 0
-      z-index: 2
+      z-index: 5
       //background-color: $main-color
       transition: background-color 0.5s ease
       .logo
@@ -203,7 +219,7 @@ html
         width: 21px
         float: left
         margin-top: 13px
-        background-image: url(../../assets/img/logo.svg)
+        background-image: url(../../assets/img/Logo.svg)
         background-position: center
         background-size: contain
       ul
@@ -249,17 +265,22 @@ html
             background-color: $action
             border: $action 1px solid
     #air-hero
-      background-image: url(../../assets/img/photo1.png)
+      background-image: url(../../assets/img/photo1.jpg)
       background-size: cover
       background-position: center
       min-height: 415px
     #archive-hero
-      background-image: url(../../assets/img/photo3.png)
+      background-image: url(../../assets/img/photo3.jpg)
       background-size: cover
       background-position: center
       min-height: 415px
     #elementarium-hero
-      background-image: url(../../assets/img/photo2.png)
+      background-image: url(../../assets/img/photo2.jpg)
+      background-size: cover
+      background-position: center
+      min-height: 415px
+    #ghg-hero
+      background-image: url(../../assets/img/photo4.jpg)
       background-size: cover
       background-position: center
       min-height: 415px
@@ -274,14 +295,15 @@ html
         left: 0
         height: 100%
         width: 50%
-        background: rgba(43,51,62,1)
-        background: -moz-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(43,51,62,1)), color-stop(100%, rgba(255,255,255,0)))
-        background: -webkit-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
-        background: -o-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
-        background: -ms-linear-gradient(left, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
-        background: linear-gradient(to right, rgba(43,51,62,1) 0%, rgba(255,255,255,0) 100%)
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b333e', endColorstr='#ffffff', GradientType=1 )
+        z-index: 1
+        background: #263b58
+        background: -moz-linear-gradient(left, rgba(38, 59, 88, 1) 0%, rgba(38, 59, 88, 0) 100%)
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(38, 59, 88, 1)), color-stop(100%, rgba(38, 59, 88, 0)))
+        background: -webkit-linear-gradient(left, rgba(38, 59, 88, 1) 0%, rgba(38, 59, 88, 0) 100%)
+        background: -o-linear-gradient(left, rgba(38, 59, 88, 1) 0%, rgba(38, 59, 88, 0) 100%)
+        background: -ms-linear-gradient(left, rgba(38, 59, 88, 1) 0%, rgba(38, 59, 88, 0) 100%)
+        background: linear-gradient(to right, rgba(38, 59, 88, 1) 0%, rgba(38, 59, 88, 0) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263b58', endColorstr='#ffffff', GradientType=1 )
       .movie
         min-width: 100%
         min-height: 100%
@@ -296,7 +318,7 @@ html
       .container
         .l-content
           position: relative
-          z-index: 1
+          z-index: 2
           h1
             color: $white
           p
@@ -362,98 +384,21 @@ html
     .work
       .container
         .full-content
-          .air-persona-img
-            background-image: url(../../assets/img/air/family.png)
-          .air-competitor-img
-            background-image: url(../../assets/img/air/research.jpg)
-          .air-sketch-img
-            background-image: url(../../assets/img/air/airSketches.jpg)
-          .air-interaction1-img
-            background-image: url(../../assets/img/air/airGestures1.png)
-          .air-interaction2-img
-            background-image: url(../../assets/img/air/airGestures2.png)
-          .air-interaction3-img
-            background-image: url(../../assets/img/air/airGestures3.png)
-          .air-wireframe-img
-            background-image: url(../../assets/img/air/wires2.png)
-          .air-prototype-img
-            background-image: url(../../assets/img/air/prototype.png)
-          .air-moodboard-img
-            background-image: url(../../assets/img/air/moodboard.png)
-          .air-design-img
-            background-image: url(../../assets/img/air/air-phone.png)
-          .element-research-img
-            background-image: url(../../assets/img/elementarium/research.png)
-          .element-sketch-img
-            background-image: url(../../assets/img/elementarium/sketch.png)
-          .element-features-img
-            background-image: url(../../assets/img/elementarium/features.png)
-          .element-workflow-img-1
-            background-image: url(../../assets/img/elementarium/workflow1.png)
-          .element-workflow-img-2
-            background-image: url(../../assets/img/elementarium/workflow2.png)
-          .element-workflow-img-3
-            background-image: url(../../assets/img/elementarium/workflow3.png)
-          .element-workflow-img-4
-            background-image: url(../../assets/img/elementarium/workflow4.png)
-          .element-workflow-img-5
-            background-image: url(../../assets/img/elementarium/workflow5.png)
-          .element-workflow-img-6
-            background-image: url(../../assets/img/elementarium/workflow6.png)
-          .element-workflow-img-7
-            background-image: url(../../assets/img/elementarium/workflow7.png)
-          .element-workflow-img-8
-            background-image: url(../../assets/img/elementarium/workflow8.png)
-          .element-interaction1-img
-            background-image: url(../../assets/img/elementarium/gesture1.png)
-          .element-interaction2-img
-            background-image: url(../../assets/img/elementarium/gesture2.png)
-          .element-interaction3-img
-            background-image: url(../../assets/img/elementarium/gesture3.png)
-          .element-interaction4-img
-            background-image: url(../../assets/img/elementarium/gesture4.png)
-          .element-interaction5-img
-            background-image: url(../../assets/img/elementarium/gesture5.png)
-          .element-interaction6-img
-            background-image: url(../../assets/img/elementarium/gesture6.png)
-          .element-interaction7-img
-            background-image: url(../../assets/img/elementarium/gesture7.png)
-          .element-interaction8-img
-            background-image: url(../../assets/img/elementarium/gesture8.png)
-          .element-interaction9-img
-            background-image: url(../../assets/img/elementarium/gesture9.png)
-          .element-interaction10-img
-            background-image: url(../../assets/img/elementarium/gesture10.png)
-          .element-moodboard-img
-            background-image: url(../../assets/img/elementarium/artboard.png)
-          .element-mockup-img
-            background-image: url(../../assets/img/elementarium/mockup.jpg)
-          .element-assets-img
-            background-image: url(../../assets/img/elementarium/assets.png)
-          .element-development-img
-            background-image: url(../../assets/img/elementarium/development.png)
-          .element-prototype-img
-            background-image: url(../../assets/img/elementarium/prototype.png)
-          .ghg-research1-img
-            background-image: url(../../assets/img/ghg/research1.png)
-          .ghg-research2-img
-            background-image: url(../../assets/img/ghg/research2.png)
-          .img
-            height: auto
+          .img-container
             width: 100%
-            padding-top: 45%
+            height: auto
             float: left
-            background-position: left
-            background-size: contain
-            background-repeat: no-repeat
-            position: relative
             a
               height: 100%
               width: 100%
-              position: absolute
-              top: 0
+            img
+              max-height: 550px
+              max-width: 100%
+              width: auto
+              float: left
+              margin-bottom: 20px
     #archive
-      background-image: url(../../assets/img/photo3.png)
+      background-image: url(../../assets/img/photo3.jpg)
       background-size: cover
       background-position: center
       .container
@@ -461,7 +406,7 @@ html
           .img
             background-image: url(../../assets/img/archive/archive-phone.png)
     #elementarium
-      background-image: url(../../assets/img/photo2.png)
+      background-image: url(../../assets/img/photo2.jpg)
       background-size: cover
       background-position: center
       .container
@@ -469,7 +414,7 @@ html
           .img
             background-image: url(../../assets/img/elementarium/elementarium-phone.png)
     #air
-      background-image: url(../../assets/img/photo1.png)
+      background-image: url(../../assets/img/photo1.jpg)
       background-size: cover
       background-position: center
       .container
@@ -477,7 +422,7 @@ html
           .img
             background-image: url(../../assets/img/air/air-phone.png)
     #ghg
-      background-image: url(../../assets/img/photo4.png)
+      background-image: url(../../assets/img/photo4.jpg)
       background-size: cover
       background-position: center
       .container
@@ -605,6 +550,14 @@ html
   html
     //background: green
     body
+      nav
+        .container
+          ul
+            .btn
+              opacity: 0
+              display: none
+      .bottom-nav
+        display: block
       .hero
         .shadow
           width: 100%
@@ -627,11 +580,3 @@ html
   html
     //background: purple
     body
-      nav
-        .container
-          ul
-            .btn
-              opacity: 0
-              display: none
-      .bottom-nav
-        display: block
